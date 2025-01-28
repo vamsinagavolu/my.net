@@ -7,5 +7,8 @@ int number2;
 string userInput1 = Console.ReadLine();
 number2 = int.Parse(userInput);
 int sum = number1 + number2;
+// string concatenation
 Console.WriteLine("sum of " + number1 + "and" + number2 + "is" + sum);
+// string interpolation
+Console.WriteLine($"sum of {number1} and {number2 } is {sum}");
 Console.ReadKey();
